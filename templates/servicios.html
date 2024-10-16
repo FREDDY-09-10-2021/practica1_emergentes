@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Servicios</title>
+</head>
+<body>
+    <h1>Servicios</h1>
+    <section>
+        <h2>CONOCIMIENTO</h2>
+        <img src="{{ url_for('static', filename='imagenes/servicio_conocimiento.png') }}" alt="Equipo 3">
+        <p>ESTE SERVICIO OFRECE CONOCIMIENTO SOBRE CADA LIBRO RECALCANDO LAS PARTES MAS IMPORTANTES.</p>
+        <h2>LECTURA</h2>
+        <img src="{{ url_for('static', filename='imagenes/servicio_lectura.png') }}" alt="Equipo 3">
+        <p>ESTE SERVICIO OFRECE LECTURA DE TODOS LOS LIBROS QUE AY DISPONIBLES SIN NINGUNA RESTRICCION AL USUARIO O CLIENTE.</p>
+        <h2>PRESTAMOS</h2>
+        <img src="{{ url_for('static', filename='imagenes/servicio_prestamos.png') }}" alt="Equipo 3">
+        <p>ESTE SERVICIO OFRECE PRESTAMOS DE SERVICIOS A CLIENTES FIELES SIEMPRE Y CUANDO ESTEN COMPROMETIDOS A LEER Y DEVOLVER ALA HORA INDICADA.</p>
+        <button onclick="window.location.href='/servicio1'">Leer más</button>
+    </section>
+    <!-- Repite para más servicios -->
+</body>
+</html>

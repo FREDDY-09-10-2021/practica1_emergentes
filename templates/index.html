@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Inicio</title>
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='imagenes/logotipo1.png') }}" alt="logotipo">
+        <h1>EL TINTERO</h1>
+        <p>ESTA EMPRESA DE LIBROS OFRECE SERVICIO DE LIBROS DE TODA CATEGORIA PARA PODER SER VENDIDAD AL PUBLICO AL POR MAYOR</p>
+        <nav>
+            <ul>
+                <li><a href="/quienes">¿Quiénes Somos?</a></li>
+                <li><a href="/servicios">Servicios</a></li>
+                <li><a href="/noticias">Noticias</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Testimonios de Clientes</h2>
+        <p>Aquí se mostrarían los testimonios.</p>
+        <button onclick="window.location.href='https://www.youtube.com/'">Síguenos en Redes Sociales</button>
+    </section>
+</body>
+</html>
